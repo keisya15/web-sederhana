@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(mondstadt_11zon.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+    height: 100%;
+    display:inline-block;
+    align-items:center;
+}
+nav{
+    flex: 1;
+    text-align:left;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 60px;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: silver;
+}
+.card{
+    width: 90%;
+    max-width: 440px;
+    color: white;
+    text-align: center;
+    padding: 50px 35px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(spx);
+}
+.card img{
+    width: 140px;
+    border-radius: 50%;
+}
+.card h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.card p{
+    font-size: 18px;
+    margin: 10px auto;
+    max-width: 330px;
+}

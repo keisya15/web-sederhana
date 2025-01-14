@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(laptop.png_11zon.png);
+    background-position: center; 
+    background-size: cover;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+nav{
+    flex: 1;
+text-align:justify;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: #fff;
+    font-size: 50px;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    pad: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url(laptop2_11zon.png);
+}
+.card2{
+    background-image: url(play\ button_11zon.png);
+}
+.card3{
+    background-image: url(profil_11zon.png);
+}
+h3{
+    color: black;
+    font-size: 15px;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+}
